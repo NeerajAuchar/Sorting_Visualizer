@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './sortingComponent.css';
 
+
 import { changeDelay, delay, PRIMARY_COLOR, randomNumberFrom } from '../Uitlities/utils';
 
-// algos
+
 import { bubbleSort } from '../Algorithm/bubbleSort';
 import { selectionSort } from '../Algorithm/selectionSort';
 import { insertionSort } from '../Algorithm/insertionSort';
@@ -73,7 +74,7 @@ function SortingComponent() {
 	return (
 		<div>
 			<div className='sideNavbar'>
-				<h3>Sorting Visualiser</h3>
+				<h3>Sorting Analyzer </h3>
 				<label className='sliderLabel'>
 					Array Size
 					<br />
@@ -93,12 +94,7 @@ function SortingComponent() {
 				<div><button className='btn' id='bsort' onClick={bubbleSort}>Bubble Sort</button></div>
 				<div><button className='btn' id='ssort' onClick={selectionSort}>Selection Sort</button></div>
 				<div><button className='btn' id='isort' onClick={insertionSort}>Insertion Sort</button></div>
-				<div>
-					<br />
-					<a href="https://github.com/jindal2209/Sorting_Visualizer/fork" target='_blank' rel='noreferrer' >
-						<img style={{ width: '90px' }} src={process.env.PUBLIC_URL + "/iff.png"} alt='myGithub' />
-					</a>
-				</div>
+				
 			</div>
 
 			<div className='array'>

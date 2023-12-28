@@ -10,9 +10,9 @@ export function MakeDelay(milisec) {
 	})
 }
 
-export var delay = 200
-export const PRIMARY_COLOR = 'rgb(113, 165, 255)';
-export const FINAL_COLOR = 'rgb(15, 245, 70)';
+export var delay = 50
+export const PRIMARY_COLOR = 'rgb(0 ,0 , 0)';
+export const FINAL_COLOR = 'rgb(0,0,0)';
 export const POSITION_FINAL_COLOR = 'rgb(183, 51, 245)';
 export const COMPARE_COLOR = 'blue';
 export const SWAP_COLOR = 'red';
@@ -34,4 +34,3 @@ export function changeDelay(val) {
 	delay = val;
 }
 
-// delay kro color change kro phir swap kro swap krne pe agar bars ke color alag alag hai to color swap nhii hote

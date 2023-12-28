@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-color: rgb(106, 215, 229);
 }
 .array {
 	position: fixed;
@@ -26,7 +26,7 @@ body {
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: rgb(29, 29, 29);
+	background-color: rgb(0, 0, 0);
 	overflow-x: hidden;
 	padding-top: 20px;
 	box-shadow: 0 4px 8px 0 rgba(81, 81, 81, 0.7), 0 6px 20px 0 rgb(81, 81, 81,0.7);
@@ -41,19 +41,19 @@ body {
 }
 
 .sideNavbar h3:hover {
-	color: #f1f1f1;
+	color: #f0d7d7;
 }
 
 .sliderLabel {
-	color: #f1f1f1;
+	color: #fffefe;
 }
 
 .btn {
 	margin: 10px 0;
 	display: inline-block;
 	padding: 6px;
-	width: 100px;
-	color: #818181;
+	width: 10rem;
+	color: #f5f3f3;
 	font-weight: 400;
 	border: 2px solid #818181;
 	background-color: transparent;
